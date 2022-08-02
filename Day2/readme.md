@@ -31,3 +31,25 @@ contract MyToken {
     }
 }
 ```
+
+## Foundry
+### create project
+```bash
+forge init hello_foundry
+```
+### test
+```bash
+forge test
+```
+### build
+```bash
+forge build
+```
+### write test
+- prefix `test..`
+- `setUp()` An optional function invoked before each test case is run
+```solidity
+function setUp() public {
+    name = "test";
+}
+```
